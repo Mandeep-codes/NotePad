@@ -1,0 +1,16 @@
+.dashboard-container {
+  max-width: 1100px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2rem;
+}
+.notes-section h2 {
+    margin-top: 0;
+}
+.notes-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}

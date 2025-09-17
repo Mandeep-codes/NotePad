@@ -1,0 +1,29 @@
+.note-form {
+  padding: 1.5rem;
+  background: #f9f9f9;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.note-form h2 {
+    margin-top: 0;
+}
+.note-form input, .note-form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.note-form textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+.note-form .submit-btn {
+    background-color: #28a745;
+}
+.note-form .clear-btn {
+    background-color: #6c757d;
+    margin-left: 0.5rem;
+}

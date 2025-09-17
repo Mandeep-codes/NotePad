@@ -1,0 +1,47 @@
+.admin-container {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+}
+.admin-section {
+  background: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+.user-list {
+  list-style-type: none;
+  padding: 0;
+}
+.user-list li {
+  background: #fff;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  margin-bottom: 0.5rem;
+}
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+.admin-note-item {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+}
+.admin-note-item small {
+  margin-top: auto;
+  color: #555;
+}
+.admin-delete-btn {
+  margin-top: 1rem;
+  background-color: #c82333;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 4px;
+}

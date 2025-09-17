@@ -1,0 +1,28 @@
+.note-item {
+  background: #fff;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+.note-item h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+.note-actions {
+  margin-top: 1rem;
+}
+.edit-btn, .delete-btn {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 0.5rem;
+}
+.edit-btn {
+  background-color: #ffc107;
+}
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
