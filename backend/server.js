@@ -4,11 +4,14 @@ const express = require('express');
 const mongoose = require('mongoose');
 const cors = require('cors');
 
+const corsOptions = {
+  origin: "https://NotePad-1.onrender.com", 
+};
 
 const app = express();
 
 
-app.use(cors()); 
+app.use(cors(corsOptions)); 
 app.use(express.json()); 
 
 
