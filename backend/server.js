@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 
 const corsOptions = {
-  origin: "https://NotePad-1.onrender.com", 
+  origin: "https://notepad-1-bwb7.onrender.com", 
 };
 
 const app = express();
